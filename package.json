@@ -1,0 +1,26 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "connect-mongodb-session": "^2.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "express-session": "^1.17.1",
+    "helmet": "^4.2.0",
+    "mongoose": "^5.10.16",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
